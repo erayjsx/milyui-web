@@ -27,7 +27,7 @@ export default defineConfig({
         text: "Introduction",
         items: [
           { text: "Getting Started", link: "/getting-started" },
-          { text: "Installation", link: "/getting-started" },
+          { text: "Installation", link: "/installation" },
           { text: "Examples", link: "/examples" },
         ],
       },
@@ -36,7 +36,7 @@ export default defineConfig({
         items: [
           { text: "Drawer", link: "/components/drawer" },
           { text: "Modal", link: "/components/modal" },
-          { text: "Accordion (Soon)" },
+          { text: "Accordion", link:"/components/accordion" },
           { text: "Alert (Soon)" },
           { text: "Dropdown (Soon)" },
           { text: "Menu (Soon)" },
@@ -59,10 +59,17 @@ export default defineConfig({
       label: "English",
       lang: "en",
     },
-    en: {
+    tr: {
       label: "Türkçe",
       lang: "tr",
-      link: "/tr/",
+    },
+    es: {
+      label: "Spanish",
+      lang: "es",
+    },
+    fr: {
+      label: "French",
+      lang: "fr",
     },
   },
 });

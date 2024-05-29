@@ -1,5 +1,10 @@
 {
+  "name": "milyui",
+  "version": "0.0.5",
+  "description": "milyui - A simple UI library",
+  "main": "docs",
   "scripts": {
+    "dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },

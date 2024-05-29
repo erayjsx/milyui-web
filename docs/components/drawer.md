@@ -9,23 +9,17 @@ A standard drawer
 Open drawer button:
 
 ```html
-<button data-drawer-trigger aria-controls="drawer-left">
-  drawer
-</button>
+<button data-drawer-trigger aria-controls="drawer">Open Drawer</button>
 ```
 
 Drawer:
 
 ```html
-<section class="drawer drawer--left" id="drawer-left" data-drawer-target>
+<section class="drawer drawer--left" id="drawer" data-drawer-target>
   <div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
   <div class="drawer__wrapper">
-    <div class="drawer__header px-4">
-        ...
-    </div>
-    <div class="drawer__content">
-        ...
-    </div>
+    <div class="drawer__header">...</div>
+    <div class="drawer__content">...</div>
   </div>
 </section>
 ```
