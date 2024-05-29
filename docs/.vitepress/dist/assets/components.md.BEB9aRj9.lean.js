@@ -1,0 +1,1 @@
+import{_ as s,c as t,o as i,a2 as a}from"./chunks/framework.DSGGXnHx.js";const g=JSON.parse('{"title":"milyui","description":"","frontmatter":{},"headers":[],"relativePath":"components.md","filePath":"components.md"}'),e={name:"components.md"},n=a("",12),l=[n];function h(p,o,r,d,c,k){return i(),t("div",null,l)}const E=s(e,[["render",h]]);export{g as __pageData,E as default};
