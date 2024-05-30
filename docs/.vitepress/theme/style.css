@@ -1,3 +1,13 @@
+::-moz-selection {
+  color: #fff;
+  background: var(--vp-c-brand-1);
+}
+
+::selection {
+  color: #fff;
+  background: var(--vp-c-brand-1);
+}
+
 html,
 body {
   font-family: "BR Omny" !important;
@@ -91,7 +101,7 @@ body {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-.title[data-v-05ace060] {
+.title span {
   font-size: 26px !important;
 }
 
@@ -102,12 +112,12 @@ body {
 }
 
 .item .text {
-  margin-top: 0.6rem;
+  margin-top: 0.4rem;
   font-size: 18px;
 }
 
 .items div {
-  margin-top: 0.6rem;
+  margin-top: 0.4rem;
 }
 
 .items div .text {
@@ -118,15 +128,59 @@ body {
   transform: scale(1.5);
 }
 
+.main .name {
+  line-height: 2rem;
+}
+
 .name .clip {
-  font-size: 40px;
+  font-size: 2.7rem;
   font-weight: normal;
 }
 
 .main .text {
-  font-size: 32px;
+  font-size: 2.1rem;
 }
 
 .VPNavBarMenuLink span {
   font-size: 16px;
+}
+
+.VPSidebar .item {
+  height: 50px;
+}
+
+a.VPButton.medium {
+  border-radius: 80px !important;
+  padding: 0 26px !important;
+  line-height: 44px !important;
+  font-size: 14px !important;
+}
+
+.VPSidebarItem.level-1 .text {
+  border-radius: 80px !important;
+  line-height: 36px !important;
+}
+
+.VPSidebarItem.level-1 {
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+  transition: 0.1s all;
+}
+
+.VPSidebarItem.level-1:hover {
+  background-color: #eee;
+}
+
+.VPSidebarItem.level-1.is-active {
+  background-color: var(--vp-c-brand-1);
+  color: #fff;
+}
+
+.VPSidebarItem.level-1:hover .item .text {
+  color: #000 !important;
+}
+
+.VPSidebarItem.level-1.is-active .text {
+  margin-top: 4px;
+  color: #fff !important;
 }

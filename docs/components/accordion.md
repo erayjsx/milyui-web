@@ -6,15 +6,23 @@ outline: deep
 
 A standard accordion
 
-```html
+## Usage
+
+Example:
+
+```Html
+<div class="accordion" is-active>
+  <div class="accordion__intro accordion__active">
+    <h4>Accordion title</h4>
+  </div>
+  <div class="accordion__content">
+    <p>Accordion content</p>
+  </div>
+</div>
 ...
 ```
 
-Accordion:
-
-```html
-...
-```
+''asd
 
 ## Results
 

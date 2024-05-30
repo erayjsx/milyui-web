@@ -6,15 +6,17 @@ outline: deep
 
 A standard drawer
 
-Open drawer button:
+## Usage
 
-```html
+Open drawer button example:
+
+```Html
 <button data-drawer-trigger aria-controls="drawer">Open Drawer</button>
 ```
 
-Drawer:
+Example:
 
-```html
+```Html
 <section class="drawer drawer--left" id="drawer" data-drawer-target>
   <div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
   <div class="drawer__wrapper">

@@ -8,10 +8,11 @@ Getting Started
 
 ## Components
 
-| Component | README |
-| --------- | ------ |
-| Drawer    | ...    |
-| Modal     | ...    |
+| Component | README                                          |
+| --------- | ----------------------------------------------- |
+| Accordion | <a href="/components/accordion.html">Readme</a> |
+| Drawer    | <a href="/components/drawer.html">Readme</a>    |
+| Modal     | <a href="/components/modal.html">Readme</a>     |
 
 ## License
 

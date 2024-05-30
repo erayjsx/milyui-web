@@ -6,15 +6,17 @@ outline: deep
 
 A standard modal
 
-Open modal button:
+## Usage
 
-```html
+Open modal button example:
+
+```Html
 <button data-modal-trigger aria-controls="modal">Open Modal</button>
 ```
 
-Modal:
+Example:
 
-```html
+```Html
 <section id="modal" data-modal-target class="hidden">
   <div class="modal-container">
     <div

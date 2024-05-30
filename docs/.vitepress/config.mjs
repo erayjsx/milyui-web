@@ -12,6 +12,12 @@ export default defineConfig({
         rel: "stylesheet",
       },
     ],
+    [
+      "script",
+      {
+        src: "https://cdn.jsdelivr.net/gh/erayjsx/milyui@0.0.8/dist/bundle.js",
+      },
+    ],
   ],
   themeConfig: {
     nav: [
@@ -19,7 +25,7 @@ export default defineConfig({
       { text: "Getting Started", link: "/getting-started" },
       {
         text: "Components",
-        link: "/components",
+        link: "/components/accordion",
       },
     ],
     sidebar: [
@@ -28,18 +34,25 @@ export default defineConfig({
         items: [
           { text: "Getting Started", link: "/getting-started" },
           { text: "Installation", link: "/installation" },
+          { text: "Customization", link: "/customization" },
+          { text: "Colors", link: "/colors" },
           { text: "Examples", link: "/examples" },
         ],
       },
       {
         text: "Components",
         items: [
+          { text: "Accordion", link: "/components/accordion" },
           { text: "Drawer", link: "/components/drawer" },
           { text: "Modal", link: "/components/modal" },
-          { text: "Accordion", link:"/components/accordion" },
-          { text: "Alert (Soon)" },
+          { text: "Alerts (Soon)" },
+          { text: "Button (Soon)" },
+          { text: "Breadcrumb (Soon)" },
+          { text: "Badges (Soon)" },
+          { text: "Collapse (Soon)" },
           { text: "Dropdown (Soon)" },
           { text: "Menu (Soon)" },
+          { text: "Popovers (Soon)" },
           { text: "Toast (Soon)" },
         ],
       },

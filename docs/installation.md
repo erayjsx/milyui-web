@@ -1,23 +1,19 @@
-# milyui
-
-[![N|Solid](https://i.ibb.co/TR8gNGc/mily.png)](https://www.npmjs.com/package/@erayjs/milyui)
-
-## Installation
+# Installation
 
 Install
 
-```html
+```Shell
 npm install @erayjs/milyui
 ```
 
 For CDN
 
-```html
+```Html
 <script src="https://unpkg.com/@erayjs/milyui"></script>
 ```
 
-```html
-<script src="https://cdn.jsdelivr.net/gh/erayjsx/milyui@0.0.3/dist/bundle.js"></script>
+```Html
+<script src="https://cdn.jsdelivr.net/gh/erayjsx/milyui@latest/dist/bundle.js"></script>
 ```
 
 ## Components
